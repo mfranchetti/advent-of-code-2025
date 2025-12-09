@@ -5,10 +5,14 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Day1 {
+    /*
+     * Advent of Code 2025 Day 1
+     * Combination lock
+     */
     public static void main(String[] args) throws IOException {
         CombinationLock combinationLock = new CombinationLock(0, 99, 50);
-        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/input.txt"));
-        String step = "";
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/input-day1.txt"));
+        String step;
         int count = 0;
 
         System.out.println("Starting - " + combinationLock);

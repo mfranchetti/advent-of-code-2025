@@ -1,12 +1,12 @@
-package uk.co.franchetti.day2;
+package uk.co.franchetti.day2b;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day2 {
+public class Day2b {
     /*
-     * Advent of Code 2025 Day 2
+     * Advent of Code 2025 Day 2 part 2
      * Invalid product IDs
      */
     public static void main(String[] args) throws IOException {
