@@ -1,7 +1,5 @@
 package uk.co.franchetti.day5;
 
-import java.util.Objects;
-
 public class InventoryRange {
     // Attributes
     private Long minimum;

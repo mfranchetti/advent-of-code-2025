@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.*;
 
 public class Inventory {
-    private List<InventoryRange> fresh = new ArrayList<>();
-    private List<Long> available = new ArrayList<>();
+    private final List<InventoryRange> fresh = new ArrayList<>();
+    private final List<Long> available = new ArrayList<>();
 
     public Inventory(String filename) {
         // Input file is multiple lines with ranges representing fresh ingredients,
@@ -41,7 +41,6 @@ public class Inventory {
             }
         }
         fresh.add(range);
-        return;
     }
 
     private void reconcile() {

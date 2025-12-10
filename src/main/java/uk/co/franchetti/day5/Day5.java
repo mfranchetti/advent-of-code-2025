@@ -1,7 +1,5 @@
 package uk.co.franchetti.day5;
 
-import uk.co.franchetti.day4.Warehouse;
-
 public class Day5 {
     /*
      * Advent of Code 2025 Day 5
